@@ -1,6 +1,7 @@
 /*Utilisation de la police Arial pour tout le CV*/
 body {
   font-family: arial;
+  min-width: 465px;
 }
 
 /*Ma photo*/
@@ -137,6 +138,7 @@ article:hover {
             text-align: right;
             float:right;
             text-decoration: underline;
+            font-weight: normal;
           }
 
           article > article {

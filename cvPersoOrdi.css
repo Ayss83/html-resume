@@ -40,6 +40,13 @@ h2 {
   color: lightgreen;
 }
 
+/*Réglage noms de catégorie dans les competences*/
+body > article:first-of-type > p span {
+  font-weight: bold;
+  width: 25%;
+  display: inline;
+}
+
 /*Dates et lieux dans Formations et Postes occupés dans Experiences*/
 p span:first-child {
   font-weight: bold;
@@ -90,17 +97,17 @@ section span {
 }
 
 /*Debut réglage precis alignement des icones*/
-section span:nth-child(2) img {
-  padding-left: 3%;
-}
+          section span:nth-child(2) img {
+            padding-left: 3%;
+          }
 
-section span:nth-child(3) img {
-  padding-left: 8%;
-}
+          section span:nth-child(3) img {
+            padding-left: 8%;
+          }
 
-section span:nth-child(4) img {
-  padding-left: 5%;
-}
+          section span:nth-child(4) img {
+            padding-left: 5%;
+          }
 /*Fin réglage precis alignement des icones*/
 
 /*Pour positionner texte aligné avec les icones*/
