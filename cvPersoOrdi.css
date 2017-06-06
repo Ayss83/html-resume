@@ -1,0 +1,110 @@
+body {
+  width: 75%;
+  max-width: 850px;
+  margin: auto;
+  font-family: Arial;
+}
+
+/*Ma photo*/
+header img {
+  max-width: 23%;
+  max-height: 185px;
+  float: right;
+}
+
+/*Nom et prénom*/
+header h2 {
+  margin-bottom: -0.8em;
+  color: black;
+}
+
+/*Mail et téléphone*/
+header h3 {
+  font-size: 1em;
+  margin-bottom: -0.5em;
+}
+
+/*adresse et autres infos*/
+header p {
+  margin-bottom: -0.2em
+}
+
+/*Poste recherché*/
+h1 {
+  text-align: center;
+  color: lightgreen;
+}
+
+/*Titres des sections du cv*/
+h2 {
+  color: lightgreen;
+}
+
+/*Dates et lieux dans Formations et Postes occupés dans Experiences*/
+p span:first-child {
+  font-weight: bold;
+  display: inline-block;
+  min-width: 30%
+}
+
+/*Entreprise, Ecole ou Centre de formation*/
+p span:nth-child(2) {
+  display: inline-block;
+  float: right;
+  text-decoration: underline;
+}
+
+/*Les taches effectuées*/
+li {
+  list-style-type: none;
+}
+
+/*La premiere tache de chaque liste*/
+li:first-of-type {
+  margin-top: -0.8em;
+}
+
+/*Les durées d'expérience*/
+h5 {
+  margin-bottom: -1em;
+  font-size: 0.9em;
+}
+
+/*Pour adresse mail*/
+a {
+  text-decoration: none;
+  /*color: black;*/
+}
+
+/*Taille des icones*/
+img {
+  max-width: 200px;
+  max-height: 50px;
+}
+
+/*Pour positionner icones*/
+section span {
+  text-align: center;
+  display: inline-block;
+  width: 24.2%;
+}
+
+/*Debut réglage precis alignement des icones*/
+section span:nth-child(2) img {
+  padding-left: 3%;
+}
+
+section span:nth-child(3) img {
+  padding-left: 8%;
+}
+
+section span:nth-child(4) img {
+  padding-left: 5%;
+}
+/*Fin réglage precis alignement des icones*/
+
+/*Pour positionner texte aligné avec les icones*/
+section span:nth-child(n+4) {
+  width: 25%;
+  text-align: center;
+}

@@ -1,0 +1,182 @@
+/*Utilisation de la police Arial pour tout le CV*/
+body {
+  font-family: arial;
+}
+
+/*Ma photo*/
+header img {
+  max-width: 23%;
+  max-height: 185px;
+  float: right;
+}
+
+/*Nom et prénom*/
+header h2 {
+  margin-bottom: -1em;
+  color: black;
+  background : white;
+  padding-left: 0em;
+  padding-top: 0em;
+  height: 1.2em;
+  line-height: 1em;
+}
+
+/*Mail et téléphone*/
+header h3 {
+  font-size: 1em;
+  margin-bottom: -0.4em;
+}
+
+/*adresse et autres infos*/
+header p {
+  margin-bottom: -0.2em
+}
+
+/*Poste recherché*/
+h1 {
+  text-align: center;
+  color: lightgreen;
+}
+
+/*Pour adresse mail*/
+a {
+  text-decoration: none;
+  /*color: black;*/
+}
+
+/*Taille des icones*/
+img {
+  max-width: 12em;
+  max-height: 3.2em;
+}
+
+/*Pour positionner icones*/
+section span {
+  text-align: center;
+  display: inline-block;
+  width: 48.6%;
+}
+
+/*Debut réglage precis alignement des icones*/
+        section span:nth-child(2) img {
+          padding-left: 1.5%;
+        }
+
+        section span:nth-child(3) img {
+          padding-left: 4%;
+        }
+
+        section span:nth-child(4) img {
+          padding-left: 2.5%;
+        }
+/*Fin réglage precis alignement des icones*/
+
+/*Début réglages des positionnements en 2 colonnes*/
+        section span:nth-child(3) {
+          padding-top: 2.5em;
+        }
+
+        section span:nth-child(5) {
+          top: -6em;
+          left: -0.1em;
+          position: relative;
+        }
+
+        section span:nth-child(6) {
+          position: relative;
+          top: -6em;
+          left:-0.2em;
+        }
+
+        section span:nth-child(n+7) {
+          position: relative;
+          top: -1.5em;
+        }
+/*Fin réglages des positionnements en 2 colonnes*/
+
+/*Pour positionner texte aligné avec les icones*/
+section span:nth-child(n+4) {
+  width: 50%;
+  text-align: center;
+}
+
+/*Titres des sections du cv*/
+h2 {
+  color: white;
+  background : linear-gradient(50deg,lightgreen 25%, white);
+  line-height: 2.8em;
+  padding-left : 0.8em;
+  border-top-left-radius: 20px;
+  max-height: 2.8em;
+}
+
+/*Masquage des articles quand non-survolées*/
+article {
+  height:6em;
+  overflow: hidden;
+  margin-bottom: -1.65em;
+}
+
+/*Affichage des articles au survol*/
+article:hover {
+  height: auto;
+}
+
+/*Début réglage des articles dans experiences professionnelles*/
+          article article h5 {
+            margin-bottom: -1em;
+          }
+
+          article article p span:first-child {
+            font-weight: bold;
+            width: 65%;
+            display: inline-block;
+          }
+
+          article article p span:nth-child(2) {
+            text-align: right;
+            float:right;
+            text-decoration: underline;
+          }
+
+          article > article {
+            max-height: 3.7em;
+            overflow: hidden;
+            margin-bottom: 1em;
+            margin-top: -0.9em;
+          }
+
+          article > article:hover {
+            max-height: none;
+          }
+/*Fin réglage des articles dans experiences professionnelles*/
+
+/*Retrait des points au debut de chaque objet de liste*/
+li {
+  list-style: none;
+}
+
+/*Début réglages dans l'onglet formations*/
+          body > article:nth-of-type(2) p span:first-child {
+            display: inline-block;
+            width: 100%;
+            font-weight: bold;
+            font-size: 0.8em;
+          }
+
+          body > article:nth-of-type(2) p span:last-child {
+            display: inline-block;
+            width: 100%;
+            text-decoration: underline;
+            font-size: 0.8em;
+          }
+
+          body > article:nth-of-type(2) p {
+            font-size: 1.2em;
+          }
+/*Fin réglages dans l'onglet formations*/
+
+/*Intitulés compétences*/
+body > article:nth-of-type(1) span {
+  font-weight: bold;
+}
