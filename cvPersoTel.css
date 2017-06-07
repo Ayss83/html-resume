@@ -1,6 +1,7 @@
 /*Utilisation de la police Arial pour tout le CV*/
 body {
   font-family: arial;
+  min-width: 465px;
 }
 
 /*Ma photo*/
